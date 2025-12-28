@@ -1,0 +1,11 @@
+nohup: ignoring input
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://172.31.237.19:8501
+  External URL: http://223.229.251.82:8501
+
+2025-12-24 15:38:36.949 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 15:38:37.084 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 15:38:50.993 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 15:39:55.467 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_

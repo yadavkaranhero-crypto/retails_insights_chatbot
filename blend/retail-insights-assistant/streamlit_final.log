@@ -1,0 +1,48 @@
+nohup: ignoring input
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://172.31.237.19:8501
+  External URL: http://223.229.251.82:8501
+
+/usr/local/lib/python3.10/dist-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/usr/local/lib/python3.10/dist-packages/langchain_google_genai/chat_models.py:47: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  from google.generativeai.caching import CachedContent  # type: ignore[import]
+2025-12-24 16:51:58.995 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 16:51:59.127 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 16:51:59.248 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 16:52:14.789 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-12-24 16:52:19.802 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+✅ Loaded 120,379 records into DuckDB
+
+================================================================================
+📝 Question: What were total sales in 2023?
+================================================================================
+
+🔄 Agent 1: Query Resolution
+❌ Query resolution error: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+
+🔄 Agent 2: Data Extraction
+🔍 Executing SQL: SELECT * FROM sales LIMIT 10
+✅ Query executed successfully. Retrieved 10 rows.
+
+🔄 Agent 3: Validation
+⚠️  Warning: Null values found in columns: ['courier_status', 'currency', 'promotions', 'fulfilled_by', 'index', 'Months', 'customer', 'unit_price', 'order_value_category']
+✅ Validation passed: 10 rows, 40 columns
+
+🔄 Agent 4: Response Generation
+❌ Response generation error: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+
+================================================================================
+✅ Processing Complete
+================================================================================
+
+  Stopping...
